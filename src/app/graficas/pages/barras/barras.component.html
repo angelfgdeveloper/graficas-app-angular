@@ -1,0 +1,19 @@
+<h1>Gráfica de Barras</h1>
+<hr>
+
+<div class="row">
+  <div class="col">
+    <div style="display: block">
+      <canvas
+        baseChart
+        [data]="barChartData"
+        [options]="barChartOptions"
+        [type]="barChartType">
+      </canvas>
+    </div>
+    <p>https://valor-software.com/ng2-charts/#BarChart</p>
+    <p>https://color.adobe.com/es/create/color-wheel</p>
+    <button class="btn btn-primary float-end" (click)="randomize()">Actualizar</button>
+  </div>
+</div>
+
